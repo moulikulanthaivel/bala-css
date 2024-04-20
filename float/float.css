@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-color: purple;
+}
+.left-float{
+    float: left;
+    margin-right: 0.5em
+}
+.section-left{
+    background-color: rgb(167, 129, 142);
+    display: flow-root;
+    padding: 0.8em;
+}
+
+
+.right-float{
+    float: right;
+    margin-left: 10px;
+}
+.right-section{
+    display: flow-root;
+    background-color: rgb(165, 111, 41);
+    padding: 15px;
+}
