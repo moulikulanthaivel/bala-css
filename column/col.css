@@ -1,0 +1,13 @@
+.column{
+    columns: 5 250px;
+    column-rule: 4px double;
+    column-gap: 1.5rem;
+}
+.col-head{
+    break-inside: avoid;
+}
+.col-head{
+    text-align: center;
+    font-size: 3rem;
+    color: blueviolet;
+}
