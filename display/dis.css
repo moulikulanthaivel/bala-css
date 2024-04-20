@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+nav{
+    background-color: black;
+    padding: 0.9rem;
+    
+}
+ul{
+    list-style-type: none;
+    text-align: right;
+   
+}
+li{
+    display: inline-block;
+    margin-inline: 0.6em;
+   
+}
+li a{
+    text-decoration: none;
+    color: whitesmoke;
+    align-items: center;
+
+}
+li a:focus , li a:hover{
+   text-decoration: underline;
+   color: yellow;
+  
+}
